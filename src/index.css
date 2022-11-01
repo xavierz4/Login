@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
     border: none;
-    
+    font-family: 'Island Moments', cursive;
+    font-family: 'McLaren', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -14,8 +16,6 @@ body {
  display: flex;
  flex-flow: row wrap;
  justify-content: center;
-
-
  margin-top: 200px;
 
 }
@@ -25,7 +25,6 @@ body {
    color:azure;  
 
 }
-
 
 input {
     display: flex;
@@ -40,7 +39,6 @@ input {
     background-color: rgb(238, 238, 238);
     
    
-     
 }
 
 
@@ -56,3 +54,24 @@ button{
    
     
 }
+
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+   
+    
+  }
+  .circular-square {
+    width: 80px;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgb(185, 185, 185);   
+    border: 4px rgb(230, 230, 230) solid;
+    margin-top: 20px;
+  }
+ 
